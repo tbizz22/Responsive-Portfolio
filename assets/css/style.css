@@ -1,0 +1,212 @@
+
+body {
+    background: url("../images/palm-leaf.png");
+    background-size:auto;
+    padding: 0px;
+    margin: 0px;  
+}
+
+p, a, form, footer {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none; 
+    line-height: 1.5; 
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+form {
+    padding: 20px;
+    margin: 20px;
+    clear: both;
+}
+
+header {
+    background-color: #ffffff;
+    border-color:#cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 60px;
+    width: 100%;
+    display: block;
+    margin:0 auto;
+    position: relative;
+    padding: 0px;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 60px;
+   /*hacky crap*/
+    margin-top: -16px;
+}
+
+.headercontent {
+    width: 960px;
+    display: block;
+    margin:0 auto;
+}
+
+.border-right {
+    border-right: 1px solid #cccccc;
+}
+
+.border-left {
+    border-left: 1px solid #cccccc;
+}
+
+li{
+    float: right;
+    display: inline;
+    padding: 16px;
+} 
+
+li:hover {
+background-color: #cccccc;
+}
+
+footer{
+    background-color: #666666;
+    height:40px;
+    border-top: 10px #4aaaa5 solid;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:40px;
+    color:white;
+    font-size: 1em;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 960px;
+    position: relative;
+    margin: auto;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    margin-bottom: 100px;
+}
+
+.colorsplash {
+    background-color:#4aaaa5;
+    height:60px;
+    width:250px;
+}
+
+.header-underline {
+    width: 90%;
+    margin: auto;
+}
+
+.colortext{
+    color:#4aaaa5;
+
+}
+.name {
+    float: left;
+    position: absolute;
+    color:white;
+    line-height: 30px;
+    text-align: center; 
+}    
+
+.about{
+    padding: 20px;
+    border-bottom: 1px solid;
+    border-color:#cccccc;
+}
+
+.content{
+    padding: 16px;
+}
+
+.profilepic{
+    float:left;
+    margin: 15px;
+}
+
+.bordercolor {
+    border-color:#cccccc;
+}
+
+
+/* Contact Page Classes */
+
+.formlabel {
+    font-size: 150%;
+    margin-bottom: 5px;  
+}
+
+.formentry {
+    height: 40px;
+    width: 100%;
+    font-size: 1.25em;
+    color:#777777;
+}
+
+.formfield {
+    margin-bottom: 25px;
+}
+
+.messageentry {
+    height: 200px;
+    color:#777777;
+}
+
+button {
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+    /*Portfolio Classes */
+    
+
+.portfolio {
+    margin: 10px;
+    overflow: auto;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.portfolioitem {
+    float:left;
+    margin: 20px;
+}
+
+.portfolioimage {
+    height: 200px;
+    width: 200px;
+}
+
+.portfoliolabel {
+    position: relative;
+    height: 40px;
+    width: 100%;
+    background-color:#4aaaa5;
+    bottom: 60px;
+    left: 0;
+    text-align: center;
+    vertical-align: center;
+    color:white;
+    font-size:25px;
+    line-height: 40px;
+}
