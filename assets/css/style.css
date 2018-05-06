@@ -390,4 +390,13 @@ button {
     .mobileborder {
         border-right: none;
     }
+
+    .profilepic { 
+        width:100%;
+    }
+    
+    .mobileprofile {
+        margin: auto;
+        display: block;
+    }    
 }
